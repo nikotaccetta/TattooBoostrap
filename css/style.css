@@ -1,0 +1,110 @@
+* {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background-image: url(../img/Back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+/* Header */
+
+.header__iconod {
+    height: 8vh;
+    width: 8vh;
+}
+
+.header__iconoi {
+    height: 8vh;
+    width: 8vh;
+    transform: scaleX(-1);
+}
+
+h1 {
+    font-size: 3rem;
+    color: white;
+    -webkit-text-stroke: 0.2px black;
+    font-family: 'Redressed', cursive;
+    margin:0
+}
+
+header a {
+    text-decoration: none;
+}
+
+/* Navbar */
+nav a {
+    font-size: 1.2rem;
+    margin: 0 .7rem;
+    transition: all 2s ease-out;
+}
+
+nav a:hover {
+    transform: scale(1.05);
+    color: yellow !important;
+    text-shadow: 0 0 10px yellow;
+}
+
+
+/* Main  */
+main {
+    min-height: 79vh;
+}
+
+main h2 {
+    font-size: 5vh;
+    -webkit-text-stroke: 1px black;
+    color: white;
+}
+
+main img {
+    max-width: -webkit-fill-available;
+}
+
+main img, main p{
+box-shadow: 0 0 20px 0 black;
+}
+
+/* TRABAJOS */
+
+/* Imagen */
+.trabajos img {
+    width: 380px;
+    height: 380px;
+    box-shadow: 0 0 10px 0 rgb(182, 182, 182);
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+}
+
+.trabajos img:hover {    
+    box-shadow: 0 0 10px 0 rgb(182, 182, 182);
+    transform: scale(1.2);
+}
+
+/* Form */
+
+/* option {
+    background-color: rgba(0, 0, 0, 0.9); !important
+    color: black; !important
+} */
+
+
+/* Footer */
+.footer a img:hover {
+    transform: scale(1.2);
+    transition: all 0.5s ease-in-out;
+}
+
+.footer a img {
+    height: 5vh;
+    width: 5vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    filter: invert(100%);
+    transition: all 0.5s ease-in-out;
+}
+
+
